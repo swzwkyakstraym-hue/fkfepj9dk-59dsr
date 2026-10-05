@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>frjfo - Everything you need, in one place.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader" class="loader" aria-hidden="true">
+<div class="loader-ring"></div>
+</div>
+
+<header class="nav" id="nav" role="banner">
+<div class="nav-container">
+<a href="#" class="nav-brand" aria-label="frjfo الرئيسية">frjfo</a>
+<nav class="nav-links" id="navLinks" role="navigation" aria-label="التنقل الرئيسي">
+<a href="#home" class="nav-link" data-section="home">Home</a>
+<a href="#features" class="nav-link" data-section="features">Features</a>
+<a href="#services" class="nav-link" data-section="services">Services</a>
+<a href="#about" class="nav-link" data-section="about">About</a>
+</nav>
+<a href="#get-started" class="nav-cta btn btn-primary" id="navCta">Get Started</a>
+<button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="فتح القائمة">
+<span class="hamburger"></span>
+</button>
+</div>
+</header>
+
+<main id="main">
+<section id="home" class="hero" aria-labelledby="hero-title">
+<div class="hero-bg">
+<div class="glow glow-1"></div>
+<div class="glow glow-2"></div>
+</div>
+<div class="hero-content">
+<h1 id="hero-title" class="hero-title">frjfo</h1>
+<p class="hero-tagline">Everything you need, in one place.</p>
+<p class="hero-desc">مساحة رقمية بسيطة تركز على السرعة والبساطة والتجربة النظيفة.</p>
+<div class="hero-actions">
+<a href="#get-started" class="btn btn-primary btn-lg">Get Started</a>
+<a href="#features" class="btn btn-secondary btn-lg">Explore</a>
+</div>
+</div>
+<div class="scroll-indicator" aria-hidden="true">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M12 5v14M19 12l-7 7-7-7"/>
+</svg>
+</div>
+</section>
+
+<section id="features" class="section features" aria-labelledby="features-title">
+<div class="container">
+<header class="section-header">
+<h2 id="features-title" class="section-title">Features</h2>
+<p class="section-subtitle">ما يميز frjfo عن الباقي</p>
+</header>
+<div class="features-grid">
+<article class="feature-card" data-animate>
+<div class="feature-icon" aria-hidden="true">⚡</div>
+<h3 class="feature-title">Fast</h3>
+<p class="feature-desc">سرعة وبساطة بدون تحميل ثقيل.</p>
+</article>
+<article class="feature-card" data-animate>
+<div class="feature-icon" aria-hidden="true">✨</div>
+<h3 class="feature-title">Modern</h3>
+<p class="feature-desc">تصميم عصري ونظيف.</p>
+</article>
+<article class="feature-card" data-animate>
+<div class="feature-icon" aria-hidden="true">🔒</div>
+<h3 class="feature-title">Reliable</h3>
+<p class="feature-desc">تجربة مستقرة وسهلة الاستخدام.</p>
+</article>
+</div>
+</div>
+</section>
+
+<section id="services" class="section services" aria-labelledby="services-title">
+<div class="container">
+<header class="section-header">
+<h2 id="services-title" class="section-title">Services</h2>
+<p class="section-subtitle">خدمات مصممة لتبسيط حياتك الرقمية</p>
+</header>
+<div class="services-grid">
+<article class="service-card" data-animate>
+<div class="service-icon" aria-hidden="true">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<polyline points="16 18 22 12 16 6"></polyline>
+<polyline points="8 6 2 12 8 18"></polyline>
+</svg>
+</div>
+<h3 class="service-title">Tools</h3>
+<p class="service-desc">أدوات مفيدة وسريعة.</p>
+</article>
+<article class="service-card" data-animate>
+<div class="service-icon" aria-hidden="true">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+</div>
+<h3 class="service-title">Links</h3>
+<p class="service-desc">كل روابطك في مكان واحد.</p>
+</article>
+<article class="service-card" data-animate>
+<div class="service-icon" aria-hidden="true">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+<circle cx="9" cy="7" r="4"></circle>
+<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+</svg>
+</div>
+<h3 class="service-title">Community</h3>
+<p class="service-desc">مكان للتواصل والمشاركة.</p>
+</article>
+</div>
+</div>
+</section>
+
+<section id="showcase" class="section showcase" aria-labelledby="showcase-title">
+<div class="container">
+<header class="section-header">
+<h2 id="showcase-title" class="section-title">Built different.</h2>
+</header>
+<div class="showcase-card" data-animate>
+<div class="showcase-inner">
+<div class="showcase-preview" aria-hidden="true">
+<div class="preview-header">
+<div class="preview-dots">
+<span></span><span></span><span></span>
+</div>
+</div>
+<div class="preview-content">
+<div class="preview-line"></div>
+<div class="preview-line short"></div>
+<div class="preview-line"></div>
+<div class="preview-line medium"></div>
+<div class="preview-line"></div>
+</div>
+<div class="preview-footer">
+<div class="preview-status">
+<span class="status-dot"></span>
+<span>Live</span>
+</div>
+<div class="preview-metrics">
+<span>⚡ 12ms</span>
+<span>✨ 99.9%</span>
+</div>
+</div>
+</div>
+<div class="showcase-info">
+<h3>frjfo Dashboard</h3>
+<p>واجهة موحدة تجمع أدواتك وروابطك ومجتمعك في مكان واحد. مصممة للأداء، مبنية للبساطة.</p>
+<ul class="showcase-highlights">
+<li>Zero config setup</li>
+<li>Real-time sync</li>
+<li>Dark mode native</li>
+<li>Extensible core</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="about" class="section about" aria-labelledby="about-title">
+<div class="container">
+<div class="about-content" data-animate>
+<h2 id="about-title" class="section-title">About frjfo</h2>
+<p class="about-text">frjfo is a simple digital space built around speed, simplicity and a clean experience.</p>
+</div>
+</div>
+</section>
+
+<section id="get-started" class="section cta" aria-labelledby="cta-title">
+<div class="container">
+<div class="cta-card" data-animate>
+<div class="cta-glow"></div>
+<h2 id="cta-title" class="cta-title">Ready to explore frjfo?</h2>
+<p class="cta-desc">ابدأ الآن واكتشف بساطة المساحة الرقمية المصممة لك.</p>
+<a href="#features" class="btn btn-primary btn-lg cta-btn">Start Now →</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="footer" role="contentinfo">
+<div class="container">
+<div class="footer-main">
+<div class="footer-brand">
+<p class="footer-logo">frjfo</p>
+</div>
+<nav class="footer-nav" aria-label="روابط التذييل">
+<a href="#home">Home</a>
+<a href="#features">Features</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+</nav>
+</div>
+<div class="footer-bottom">
+<p class="copyright">© 2026 frjfo. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="العودة للأعلى" hidden>
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+<path d="M18 15l-6-6-6 6"/>
+</svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
